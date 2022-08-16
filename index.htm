@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="refresh" content="5">
+        <meta http-equiv="refresh" content="50">
         <title>Curso Bradesco</title>
         <link rel="stylesheet" href="style.css">
         
@@ -61,9 +61,40 @@
 
                 <!--esse contém o atributo action que envia para o e-mail citado-->
                 <fomr action="jryandev123@gmail.com" method="post">
-                    <input type="text">
+                    <div class="caixa1">Insira o email: <input type="text"> </br>
+                      Insira a senha:  
+                      <input type="password" maxlenght="10"> </br>
+                       <input button type="submit">   
+                       
+                   </div> 
 
                 </fomr>
+
+            </br>
+                <form action="jryandev123@gmail.com" method="get"> 
+                    <p fontface="calibri"> Nome: <input type="text" name="nome" size="25" maxlenght="50">
+                    </p>
+                    <p>Número do cartão de crédito: <input type="text" name="num_cartao" size="16"></p>
+
+                    <p>
+                        Senha: <input type="password" name="senha">
+                    </p>
+                    <p>
+                        Selecione a bandeira de cartão de crédito: </br>
+                        <input type="radio" name="selecao-cartao" checked> VISA </br>
+                        <input type="radio" name="selecao-cartao"> MASTERCARD
+                    </p>
+                </br>
+                    <p>
+                        Selecione horário de entrega: 
+                    </br>
+                     <input type="checkbox" name="horario1" size="1"> 08:00 hrs às 12:00 hrs
+                </br>
+                     <input type="checkbox" name="horario2" size="1"> 13:00 hrs às 15:00 hrs </br>
+                     <input type="checkbox" name="horario3" size="1"> 16:00 hrs às 20:00 hrs 
+                    </p>
+
+                </form>
 
              </div>
           </section>
