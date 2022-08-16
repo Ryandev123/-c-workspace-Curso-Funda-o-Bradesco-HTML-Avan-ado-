@@ -62,16 +62,17 @@
                 <!--esse contém o atributo action que envia para o e-mail citado-->
                 <fomr action="jryandev123@gmail.com" method="post">
                     <div class="caixa1">Insira o email: <input type="text"> </br>
+                        
                       Insira a senha:  
                       <input type="password" maxlenght="10"> </br>
-                       <input button type="submit">   
+                       <input type="submit" value="enviar">   
                        
                    </div> 
 
                 </fomr>
 
             </br>
-                <form action="jryandev123@gmail.com" method="get"> 
+                <form action="jryandev123@gmail.com" method="get" align="center"> 
                     <p fontface="calibri"> Nome: <input type="text" name="nome" size="25" maxlenght="50">
                     </p>
                     <p>Número do cartão de crédito: <input type="text" name="num_cartao" size="16"></p>
@@ -91,8 +92,27 @@
                      <input type="checkbox" name="horario1" size="1"> 08:00 hrs às 12:00 hrs
                 </br>
                      <input type="checkbox" name="horario2" size="1"> 13:00 hrs às 15:00 hrs </br>
-                     <input type="checkbox" name="horario3" size="1"> 16:00 hrs às 20:00 hrs 
-                    </p>
+                     <input type="checkbox" name="horario3" size="1"> 16:00 hrs às 20:00 hrs  </br>
+                     <input type="radio" name="horario4" size="1"> 21:00 hrs às 01:00 hrs
+                     </p>
+                     <textarea name="ref"  rows="2" cols="40" name="variável">Descrição</textarea>
+                     <input type="submit" value="enviar"> <input type="reset" value="limpar"> </br>
+                     <input type=hidden name="CPF" value="verdadeiro">
+                    </br>
+                    <select name="Cidades">
+                        <option>RJ</option>
+                        <option>SP
+                         <option>SC   
+                       
+                        
+                    </select>
+                </br>
+                    <select name="Bairros" size="4">
+                        <option>Jardim Nova Era
+                        <option>Cabuçu
+                        <option>Limoeiros
+
+                    </select>
 
                 </form>
 
