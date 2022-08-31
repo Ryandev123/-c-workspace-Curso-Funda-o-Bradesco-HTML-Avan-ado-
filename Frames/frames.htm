@@ -2,12 +2,14 @@
 <html>
     <head>
        <title>Frames</title>
+       <base target="main">
     </head>
     
-       <frameset cols="25%,*,25%">
-          <frame src="frame_a.html">
-          <frame src="frame_b.html">
-          <frame src="frame_c.html" >  
+       <frameset cols="20%,35%,*" frameborder="0"> 
+          <frame src="frame_a.html" name="slave" marginwidth="5px" noresize> 
+            <a href="frame_a.html" target="main">
+          <frame src="frame_b.html" name="menu">
+          <frame src="frame_c.html" name="main" target="_blank" noresize>  
        </frameset>
 
    
